@@ -25,19 +25,36 @@
         <li> <em> No events found </em> </li>
     </ul>
 <hr />
-    <h2><center>Have an event you want featured? </center></h2>
+    <h2><center>Have an event that you want featured? </center></h2>
     <form action="" method="post">
-        <p><center>Fill out the form below!</center></p>
-        <p>Your Name: 
-            <input type="text" name="Your Name" Size="15" maxlength="30" />
-        </p>
         <p>Your Organization's Name
-            <input type="text" name="Organization Name" Size="15" maxlength="30" />
-        </p>
-        <p>Event Name
-            <input type="text" name="Event Name" Size="15" maxlength="30" />
+            <input type="text" name="Organization Name" Size="15" maxlength="30" required="required"/>
         </p>
         
+        <p>Event Name
+            <input type="text" name="Event Name" Size="15" maxlength="30" required="required"/>
+        </p>
+        
+        <p>
+        <label for="username">Event Date:</label>
+        <input type="date" name="Date" required="required"/>
+        </p>
+        
+        <p> Event description (include URL if applicable):</p>
+        <textarea name="comments" cols="20" rows="4"> Type description here...</textarea>
+        
+        <fieldset> 
+        <legend> Contact Information </legend>
+            <label>Your Name:</label>
+            <input type="text" name="name" required="required"/> 
+            <label>Email:</label>
+            <input type="text" name="email" required="required"/>
+            <label>Phone:</label>
+            <input type="text" name="phone" required="required"/>
+            
+        </fieldset>
+
+        <input type="submit" value="Submit" />
     </form>
         
 </body>
