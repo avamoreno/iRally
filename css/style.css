@@ -15,3 +15,8 @@ a{
     
 
 
+
+.body {
+    border-style: groove;
+    style="background-color:Blue;"
+}
