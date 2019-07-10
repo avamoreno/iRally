@@ -1,15 +1,22 @@
 body{ 
     font-size: 100%; 
     font-family: "PT Sans Caption", sans-serif;
-    background-color: white;}
+    background-color: #001f3f;
+    color: #7FDBFF
+}
 
 
 p {
     text-align: center;
-    font-weight: none;}
+    font-weight: none;
+}
 
 a{
-    color:black;
+    color:#FF4136;
     text-transform: uppercase;
     text-decoration: none;
-    
+}
+
+h1.webtitle {
+    color: white;
+}
