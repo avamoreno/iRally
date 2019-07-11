@@ -6,6 +6,9 @@ body{
 }
 
 
+p.scroll {
+    margin-top: 100px
+}
 p {
     text-align: center;
     font-weight: none;
@@ -19,4 +22,13 @@ a{
 
 h1.webtitle {
     color: white;
+}
+.Menu-Bar {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    padding: 10px;
+    margin: 0px;
+    width: 100%;
+    
 }
