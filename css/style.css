@@ -1,8 +1,8 @@
 body{ 
     font-size: 100%; 
     font-family: "PT Sans Caption", sans-serif;
-    background-color: rgba(64, 86, 161, 0.44);
-    color: #67696f
+    background-color: #001f3f;
+    color: #a4def5;
 }
 
 
@@ -12,21 +12,16 @@ p {
 }
 
 a{
-    color:#FF4136;
+    color:rgba(255, 128, 121, 0.92);
     text-transform: uppercase;
     text-decoration: none;
 }
 
 h1.webtitle {
+    color: #4babff;
 }
 .header-box {
     border-style: solid;
     padding: 5px;
     border-color: aliceblue;
-}
-
-.body-box {
-    padding: 5px;
-    border-style: solid;
-    border-color: indianred;
 }
