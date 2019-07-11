@@ -1,8 +1,11 @@
 body{ 
     font-size: 100%; 
     font-family: "PT Sans Caption", sans-serif;
-    background-color: rgba(64, 86, 161, 0.44);
-    color: #67696f
+    background-color: #EFEFEF;
+    color: #67696f;
+    width:"960px";
+    margin:"auto";
+    position: relative
 }
 
 
@@ -12,21 +15,32 @@ p {
 }
 
 a{
-    color:#FF4136;
+    color:#FF3B3F;
     text-transform: uppercase;
     text-decoration: none;
 }
 
-h1.webtitle {
-}
-.header-box {
-    border-style: solid;
-    padding: 5px;
-    border-color: aliceblue;
+
+
+.input-box {
+    float: right
 }
 
-.body-box {
-    padding: 5px;
-    border-style: solid;
-    border-color: indianred;
+.input-box-title {
+    float: right
+}
+
+.nav {
+    background-color: white;
+    padding: 10px;
+    text-align: center
+}
+
+.page-title {
+    background-color: white
+}
+
+.content-column1 .content-column2 .content-column3 {
+    background-color: white
+    
 }
