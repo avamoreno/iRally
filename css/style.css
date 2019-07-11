@@ -8,6 +8,12 @@ body{
     position: relative
 }
 
+.Menu-Bar {
+    padding: inherit;
+    border: hidden;
+    padding: 10px;
+    animation: 
+}
 
 p.scroll {
     margin-top: 100px
@@ -23,19 +29,14 @@ a{
     text-decoration: none;
 }
 
-
 .input-box {
-    float: right
+    float: center
 }
 
 .input-box-title {
-    float: right
+    float: center
 
 h1.webtitle {
     color: white;
 }
-
-
-.logo {
-    tex
-}
+    
