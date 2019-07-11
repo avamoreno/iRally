@@ -9,6 +9,9 @@ body{
 }
 
 
+p.scroll {
+    margin-top: 100px
+}
 p {
     text-align: center;
     font-weight: none;
@@ -20,6 +23,7 @@ a{
     text-decoration: none;
 }
 
+<<<<<<< HEAD
 
 
 .input-box {
@@ -28,6 +32,21 @@ a{
 
 .input-box-title {
     float: right
+=======
+h1.webtitle {
+    color: white;
+}
+
+.Menu-Bar {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    padding: 10px;
+    margin: 0px;
+    width: 100%;
+    
+
+>>>>>>> e3b8e0c7457b2c778e76171441bfa345cd896ac6
 }
 
 .nav {
@@ -36,6 +55,7 @@ a{
     text-align: center
 }
 
+<<<<<<< HEAD
 .page-title {
     background-color: white
 }
@@ -44,3 +64,9 @@ a{
     background-color: white
     
 }
+=======
+.body-box {
+    padding: 5px;
+    border-style: solid;
+    border-color: indianred;
+>>>>>>> e3b8e0c7457b2c778e76171441bfa345cd896ac6
