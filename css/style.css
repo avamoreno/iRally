@@ -23,8 +23,6 @@ a{
     text-decoration: none;
 }
 
-<<<<<<< HEAD
-
 
 .input-box {
     float: right
@@ -37,22 +35,12 @@ h1.webtitle {
     color: white;
 }
 
-.Menu-Bar {
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    padding: 10px;
-    margin: 0px;
-    width: 100%;
-    
 
->>>>>>> e3b8e0c7457b2c778e76171441bfa345cd896ac6
-}
 
 .nav {
     background-color: white;
     padding: 10px;
-    text-align: center
+ 
 }
 
 <<<<<<< HEAD
@@ -64,9 +52,8 @@ h1.webtitle {
     background-color: white
     
 }
-=======
+    
 .body-box {
     padding: 5px;
     border-style: solid;
     border-color: indianred;
->>>>>>> e3b8e0c7457b2c778e76171441bfa345cd896ac6
