@@ -57,3 +57,11 @@ h1.webtitle {
     padding: 5px;
     border-style: solid;
     border-color: indianred;
+
+.menu {
+    margin="1%"
+    align-content: center;
+}
+
+#content {
+}
