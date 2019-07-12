@@ -12,7 +12,10 @@ body{
     padding: inherit;
     border: hidden;
     padding: 10px;
-    animation: 
+}
+
+.content {
+   overflow: auto;
 }
 
 p.scroll {
@@ -40,3 +43,4 @@ h1.webtitle {
     color: white;
 }
     
+
