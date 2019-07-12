@@ -1,11 +1,28 @@
 body{ 
     font-size: 100%; 
     font-family: "PT Sans Caption", sans-serif;
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    background-color: #001f3f;
+    color: #a4def5;
+=======
+=======
+>>>>>>> 97506991b04c980d2cee654ffd9ff680021b3c75
+=======
+>>>>>>> 9098fa69647ba96692ae6a452e0ea63ab3be6c56
     background-color: #EFEFEF;
     color: #67696f;
     width:"960px";
     margin:"auto";
     position: relative
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> cbf33ca93a887d28e778be511f2037c2ed460b5d
+=======
+>>>>>>> 97506991b04c980d2cee654ffd9ff680021b3c75
+=======
+>>>>>>> 9098fa69647ba96692ae6a452e0ea63ab3be6c56
 }
 
 .Menu-Bar {
@@ -30,19 +47,113 @@ p {
 }
 
 a{
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    color:rgba(255, 128, 121, 0.92);
+=======
     color:#FF3B3F;
+>>>>>>> cbf33ca93a887d28e778be511f2037c2ed460b5d
+=======
+    color:#FF3B3F;
+>>>>>>> 97506991b04c980d2cee654ffd9ff680021b3c75
+=======
+    color:#FF3B3F;
+>>>>>>> 9098fa69647ba96692ae6a452e0ea63ab3be6c56
     text-transform: uppercase;
     text-decoration: none;
 }
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+
+.input-box {
+    float: right
+}
+
+.input-box-title {
+    float: right
+=======
+h1.webtitle {
+<<<<<<< HEAD
+    color: #4babff;
+=======
+    color: white;
+>>>>>>> cbf33ca93a887d28e778be511f2037c2ed460b5d
+}
+
+.Menu-Bar {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    padding: 10px;
+    margin: 0px;
+    width: 100%;
+    
+
+>>>>>>> e3b8e0c7457b2c778e76171441bfa345cd896ac6
+}
+
+.nav {
+    background-color: white;
+    padding: 10px;
+    text-align: center
+=======
+.input-box {
+    float: center
+>>>>>>> 97506991b04c980d2cee654ffd9ff680021b3c75
+}
+<<<<<<< HEAD
+=======
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+.page-title {
+    background-color: white
+}
+
+.content-column1 .content-column2 .content-column3 {
+    background-color: white
+    
+}
+=======
+.body-box {
+    padding: 5px;
+    border-style: solid;
+    border-color: indianred;
+>>>>>>> e3b8e0c7457b2c778e76171441bfa345cd896ac6
+>>>>>>> cbf33ca93a887d28e778be511f2037c2ed460b5d
+=======
+=======
 .input-box {
     float: center
 }
 
+>>>>>>> 9098fa69647ba96692ae6a452e0ea63ab3be6c56
 .input-box-title {
     float: center
 
 h1.webtitle {
     color: white;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+.Menu-Bar {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    padding: 10px;
+    margin: 0px;
+    width: 100%;
+    z-index:10;
+=======
+    
+>>>>>>> 97506991b04c980d2cee654ffd9ff680021b3c75
+
+>>>>>>> 97506991b04c980d2cee654ffd9ff680021b3c75
+=======
+
+>>>>>>> 9098fa69647ba96692ae6a452e0ea63ab3be6c56
