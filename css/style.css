@@ -8,6 +8,15 @@ body{
     position: relative
 }
 
+.Menu-Bar {
+    padding: inherit;
+    border: hidden;
+    padding: 10px;
+}
+
+.content {
+   overflow: auto;
+}
 
 .scroll{
     position: relative;
@@ -26,19 +35,17 @@ a{
     text-decoration: none;
 }
 
-<<<<<<< HEAD
-
-
 .input-box {
-    float: right
+    float: center
 }
 
 .input-box-title {
-    float: right
-=======
+    float: center
+
 h1.webtitle {
     color: white;
 }
+<<<<<<< HEAD
 
 .Menu-Bar {
     position: fixed;
@@ -48,28 +55,7 @@ h1.webtitle {
     margin: 0px;
     width: 100%;
     z-index:10;
-
->>>>>>> e3b8e0c7457b2c778e76171441bfa345cd896ac6
-}
-
-.nav {
-    background-color: white;
-    padding: 10px;
-    text-align: center
-}
-
-<<<<<<< HEAD
-.page-title {
-    background-color: white
-}
-
-.content-column1 .content-column2 .content-column3 {
-    background-color: white
-    
-}
 =======
-.body-box {
-    padding: 5px;
-    border-style: solid;
-    border-color: indianred;
->>>>>>> e3b8e0c7457b2c778e76171441bfa345cd896ac6
+    
+>>>>>>> 97506991b04c980d2cee654ffd9ff680021b3c75
+
