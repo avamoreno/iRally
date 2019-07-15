@@ -2,8 +2,9 @@ body {
     font-size: 80%;
     letter-spacing: 0.15em;
     background-color: #efefef;}
-h1 {
-    font-size: 270%}
+h1, h2, h3, h4 {
+    font-size: 270%;
+    font-family: 'Open Sans', sans-serif;
 }
 
 
@@ -11,6 +12,7 @@ h1 {
  a {
     text-transform: uppercase;
     text-decoration: none;
+     font-family: 'Open Sans', sans-serif;
     }
 
 
@@ -30,12 +32,34 @@ li a {
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 99px;
+  padding: 14px 84px;
   text-decoration: none;
+    text-transform: capitalize;
+    font-family: 'Open Sans', sans-serif;
 }
 
 /* Change the link color to #111 (black) on hover */
 li a:hover {
-  background-color: darkred;
-     
+  background-color: darkred;  
+}
+
+
+* {
+  box-sizing: border-box;
+}
+.main {
+  max-width: 1200px;
+  margin: 30px auto;
+  padding: 20px;
+  width: 100%; 
+  display: grid;
+  /* Define Auto Row size */
+  grid-auto-rows: 500px; 
+  /*Define our columns */
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
+  grid-gap: 1em;
+}
+
+head {
+    font-family: 'Open Sans', sans-serif;
 }
