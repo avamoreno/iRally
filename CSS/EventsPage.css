@@ -40,7 +40,7 @@ li a {
 
 /* Change the link color to #111 (black) on hover */
 li a:hover {
-  background-color: darkred;  
+  background-color: #FF3B3F;  
 }
 
 
@@ -54,10 +54,11 @@ li a:hover {
   width: 100%; 
   display: grid;
   /* Define Auto Row size */
-  grid-auto-rows: 500px; 
+  grid-auto-rows: 200px; 
   /*Define our columns */
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
   grid-gap: 1em;
+    background-color: #CAEBF2;
 }
 
 head {
