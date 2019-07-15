@@ -1,12 +1,17 @@
+
+/* This is the code for the backgrounf color */
+
 body {
-  background-color: white;
+  background-color: mistyrose;
 }
 
+/*This is the code for the color of font*/
 h1 {
   color: maroon;
   margin-left: 20px;
 }
 
+/*font code*/
 h1 {
   font-family: "Open Sans";
 }
