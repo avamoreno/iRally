@@ -50,7 +50,13 @@ li a:hover {
 }
 
 /*CSS settings for individual sections*/
-.main {
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.form {
   max-width: 1200px;
   margin: 30px auto;
   padding: 20px;
@@ -62,8 +68,26 @@ li a:hover {
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
   grid-gap: 1em;
     background-color: #CAEBF2;
+    float: left;
 }
 
 head {
     font-family: 'Open Sans', sans-serif;
+}
+
+
+.articles {
+      max-width: 1200px;
+  margin: 30px auto;
+  padding: 20px;
+  width: 75%;
+  display: grid;
+  /* Define Auto Row size */
+  grid-auto-rows: 200px; 
+  /*Define our columns */
+  grid-template-columns: repeat(3, 1fr); 
+  grid-gap: 10px;
+    background-color: #CAEBF2;
+    display: grid;
+    float: left;
 }
