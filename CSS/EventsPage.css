@@ -1,6 +1,9 @@
 /*Font settings*/
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 1d0fb94b76be06498cc6592e9325b03162416bff
 body {
     font-size: 80%;
     letter-spacing: 0.15em;
@@ -23,10 +26,14 @@ h1 {
      font-family: 'Open Sans', sans-serif;
     }
 
+<<<<<<< HEAD
 
 /*Nav bar color*/
 
 
+=======
+/*Nav bar color*/
+>>>>>>> 1d0fb94b76be06498cc6592e9325b03162416bff
 ul {
   list-style-type: none;
   margin: 0;
@@ -51,10 +58,14 @@ li a {
     font-family: 'Open Sans', sans-serif;
 }
 
+<<<<<<< HEAD
 
 /*Nav bar hover settings*/
 
 
+=======
+/*Nav bar hover settings*/
+>>>>>>> 1d0fb94b76be06498cc6592e9325b03162416bff
 li a:hover {
   background-color: darkred;  
 }
