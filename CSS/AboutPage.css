@@ -1,19 +1,18 @@
+/*This is the css code for the body*/
 body {
     font-size: 80%;
     letter-spacing: 0.15em;
     background-color: #efefef;
 }
 
-h1 {
-    font-size: 50px}
-}
+
+/*This is the code for the Navigation bar*/
 
 
- 
  a {
     text-transform: uppercase;
     text-decoration: none;
-    }
+     font-family: 'Open Sans', sans-serif;}
 
 
 ul {
@@ -23,13 +22,12 @@ ul {
   overflow: hidden;
   background-color: #333;
   position: sticky;
-  top: 0px;
-}
+  top: 0px;}
+
 
 li {
-  float: left;
-  
-}
+  float: left;}
+
 
 li a {
   display: block;
@@ -38,27 +36,39 @@ li a {
   padding: 14px 84px;
   text-decoration: none;
     text-transform: uppercase;
-}
+    font-family: 'Open Sans', sans-serif;}
+
 
 li a:hover {
-  background-color: darkred;
-     
-}
+  background-color: darkred;}
+
+
+/*This is the code for the text fonts and sizes*/
+
+
+head {
+    font-family: 'Open Sans', sans-serif;}
+
+h1, h2, h3 {
+    font-family: 'Open Sans', sans-serif;}
+
+h1 {
+    color: maroon;
+    font-size: 50px}
 
 h2{ 
-    font-size: 30px
-}
+    font-size: 30px}
 
 
 h3 {
-    font-size: 20px
-}
+    font-size: 20px}
 
 
 p {
-    font-size: 15px
-}
+    font-size: 15px}
 
+
+/*This is the code for the grid boxes*/
 
 
 .grid-container {
@@ -66,21 +76,11 @@ p {
   grid-gap: 50px;
   grid-template-columns: auto auto auto;
   background-color: #efefef;
-  padding: 20px;
-}
+  padding: 20px;}
 
 .grid-item {
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: #CAEBF2;
   border: none:
   padding: 20px;
-  text-align: center;
-}
-
- 
-
- 
-head {
-    font-family: 'Open Sans', sans-serif;
- 
-}
+  text-align: center;}
 

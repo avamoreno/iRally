@@ -1,3 +1,6 @@
+/*Font settings*/
+
+
 body {
     font-size: 80%;
     letter-spacing: 0.15em;
@@ -5,6 +8,11 @@ body {
 h1, h2, h3, h4 {
     font-size: 270%;
     font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    color: maroon;
+    font-size: 50px;
 }
 
 
@@ -16,12 +24,17 @@ h1, h2, h3, h4 {
     }
 
 
+/*Nav bar color*/
+
+
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
   background-color: #333;
+   position: sticky;
+  top: 0px 
 }
 
 li {
@@ -34,28 +47,36 @@ li a {
   text-align: center;
   padding: 14px 84px;
   text-decoration: none;
-    text-transform: capitalize;
+    text-transform: uppercase;
     font-family: 'Open Sans', sans-serif;
 }
 
-/* Change the link color to #111 (black) on hover */
-li a:hover {
-  background-color: #FF3B3F;  
-}
 
+/*Nav bar hover settings*/
+
+
+li a:hover {
+  background-color: darkred;  
+}
 
 * {
   box-sizing: border-box;
 }
+
+/*CSS settings for individual sections*/
 .main {
   max-width: 1200px;
   margin: 30px auto;
   padding: 20px;
   width: 100%; 
   display: grid;
+    
   /* Define Auto Row size */
+    
   grid-auto-rows: 200px; 
+    
   /*Define our columns */
+    
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
   grid-gap: 1em;
     background-color: #CAEBF2;

@@ -1,0 +1,71 @@
+body {
+    background-color: #efefef;
+}
+* {
+  box-sizing: border-box;
+}
+
+/*CSS Grid for Student Organizations*/
+
+.main {
+  max-width: 1200px;
+  margin: 30px auto;
+  padding: 0 20px;
+  width: 100%; 
+  display: grid;
+  /* Define Auto Row size */
+  grid-auto-rows: 550px; 
+  /*Define our columns */
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
+  grid-gap: 1em;
+}
+
+head {
+    font-family: 'Open Sans', sans-serif;}
+
+h1, h2, h3 {
+    font-family: 'Open Sans', sans-serif;}
+
+/* Navigation Bar Code*/
+
+ .navpage {
+    text-transform: uppercase;
+    text-decoration: none;
+    }
+
+.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: sticky;
+  top: 0px;
+}
+
+.navlink {
+  float: left;
+}
+
+
+.navlink .navpage {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 80px;
+  text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+.navlink .navpage:hover {
+  background-color: darkred;
+     
+}
+ul {
+    list-style-type: none;}
+
+h1 {
+    color: maroon;
+    font-size: 50px
+}

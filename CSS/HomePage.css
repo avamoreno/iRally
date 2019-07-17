@@ -1,12 +1,13 @@
+/*This code applies to the whole web page*/
+
 body {
     font-size: 80%;
     letter-spacing: 0.15em;
-    background-color: #efefef;}
-h1 {
-    font-size: 50px}
+    background-color: #efefef;
 }
 
 
+/*This code is for the Navigation Bar*/
  
  a {
     text-transform: uppercase;
@@ -41,6 +42,18 @@ li a {
 li a:hover {
   background-color: darkred;
      
+}
+
+
+/*fonts and font sizes*/
+
+h1, h2, h3 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    color: maroon;
+    font-size: 50px
 }
 
 h2{ 
