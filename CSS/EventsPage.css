@@ -50,16 +50,10 @@ li a:hover {
 }
 
 /*CSS settings for individual sections*/
-.clearfix:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
 .form {
   max-width: 1200px;
-  margin: 30px auto;
-  padding: 20px;
+  margin: 30px;
+  padding: 30px;
   width: 100%; 
   display: grid;
   /* Define Auto Row size */
@@ -68,7 +62,6 @@ li a:hover {
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
   grid-gap: 1em;
     background-color: #CAEBF2;
-    float: left;
 }
 
 head {
@@ -88,6 +81,25 @@ head {
   grid-template-columns: repeat(3, 1fr); 
   grid-gap: 10px;
     background-color: #CAEBF2;
-    display: grid;
-    float: left;
 }
+
+.articles p:nth-child(even) {
+    padding: 30px;
+    width: 100%;
+    margin: 30px;
+    max-width: 1200px;
+    display: grid;
+    grid-auto-rows: 200px;
+    grid-template-columns: repeat (auto-fill, minmax(300px, 1fr));
+    grid-gap: 1em;
+    background-color: aqua
+    
+}
+
+.articles p:nth-child(odd) {
+    padding: 30px;
+    
+}
+
+
+
