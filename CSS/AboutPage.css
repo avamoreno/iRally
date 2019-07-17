@@ -1,0 +1,86 @@
+/*This is the css code for the body*/
+body {
+    font-size: 80%;
+    letter-spacing: 0.15em;
+    background-color: #efefef;
+}
+
+
+/*This is the code for the Navigation bar*/
+
+
+ a {
+    text-transform: uppercase;
+    text-decoration: none;
+     font-family: 'Open Sans', sans-serif;}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: sticky;
+  top: 0px;}
+
+
+li {
+  float: left;}
+
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 84px;
+  text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;}
+
+
+li a:hover {
+  background-color: darkred;}
+
+
+/*This is the code for the text fonts and sizes*/
+
+
+head {
+    font-family: 'Open Sans', sans-serif;}
+
+h1, h2, h3 {
+    font-family: 'Open Sans', sans-serif;}
+
+h1 {
+    color: maroon;
+    font-size: 50px}
+
+h2{ 
+    font-size: 30px}
+
+
+h3 {
+    font-size: 20px}
+
+
+p {
+    font-size: 15px}
+
+
+/*This is the code for the grid boxes*/
+
+
+.grid-container {
+  display: grid;
+  grid-gap: 50px;
+  grid-template-columns: auto auto auto;
+  background-color: #efefef;
+  padding: 20px;}
+
+.grid-item {
+  background-color: #CAEBF2;
+  border: none:
+  padding: 20px;
+  text-align: center;}
+

@@ -1,7 +1,12 @@
+body {
+    background-color: #efefef;
+}
 * {
   box-sizing: border-box;
 }
+
 /*CSS Grid for Student Organizations*/
+
 .main {
   max-width: 1200px;
   margin: 30px auto;
@@ -16,14 +21,17 @@
 }
 
 head {
-    font-family: 'Open Sans', sans-serif;
-}
+    font-family: 'Open Sans', sans-serif;}
+
+h1, h2, h3 {
+    font-family: 'Open Sans', sans-serif;}
+
 /* Navigation Bar Code*/
+
  .navpage {
     text-transform: uppercase;
     text-decoration: none;
     }
-
 
 .nav {
   list-style-type: none;
@@ -31,25 +39,33 @@ head {
   padding: 0;
   overflow: hidden;
   background-color: #333;
-    
+  position: sticky;
+  top: 0px;
 }
 
 .navlink {
   float: left;
 }
 
+
 .navlink .navpage {
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 99px;
+  padding: 14px 80px;
   text-decoration: none;
+    text-transform: uppercase;
 }
 
-/* Change the link color to #111 (black) on hover */
+
 .navlink .navpage:hover {
   background-color: darkred;
      
 }
+ul {
+    list-style-type: none;}
 
-
+h1 {
+    color: maroon;
+    font-size: 50px
+}
