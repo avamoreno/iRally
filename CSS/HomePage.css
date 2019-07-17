@@ -37,6 +37,7 @@ li a {
   padding: 14px 84px;
   text-decoration: none;
     text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
 }
 
 li a:hover {
@@ -47,9 +48,6 @@ li a:hover {
 
 /*fonts and font sizes*/
 
-h1, h2, h3 {
-    font-family: 'Open Sans', sans-serif;
-}
 
 h1 {
     color: maroon;
@@ -64,3 +62,9 @@ h2{
 h3 {
     font-size: 15px;
 }
+
+head {
+    font-family: 'Open Sans', sans-serif;}
+
+h1, h2, h3 {
+    font-family: 'Open Sans', sans-serif;}

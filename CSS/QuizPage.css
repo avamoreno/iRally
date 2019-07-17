@@ -39,7 +39,7 @@ li a {
   text-decoration: none;
     text-transform: uppercase;
     font-family: 'Open Sans', sans-serif;}
-
+    font-family: 'Open Sans', sans-serif;
 
 li a:hover {
   background-color: darkred;}
