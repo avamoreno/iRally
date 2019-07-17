@@ -58,14 +58,11 @@ li a {
     font-family: 'Open Sans', sans-serif;
 }
 
-<<<<<<< HEAD
-
 /*Nav bar hover settings*/
 
 
-=======
+
 /*Nav bar hover settings*/
->>>>>>> 1d0fb94b76be06498cc6592e9325b03162416bff
 li a:hover {
   background-color: darkred;  
 }
