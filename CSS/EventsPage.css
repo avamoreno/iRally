@@ -68,38 +68,102 @@ head {
     font-family: 'Open Sans', sans-serif;
 }
 
+/*CSS for entirety of events listings*/
 
-.articles {
-      max-width: 1200px;
-  margin: 30px auto;
-  padding: 20px;
-  width: 75%;
-  display: grid;
-  /* Define Auto Row size */
-  grid-auto-rows: 200px; 
-  /*Define our columns */
-  grid-template-columns: repeat(3, 1fr); 
-  grid-gap: 10px;
-    background-color: #CAEBF2;
+.event-listings {
+  margin-bottom: 0px;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    box-sizing: inherit;
+    display: block;
+    background-color: #fff;
+    margin: 0 0 .5rem;
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 0.5rem;
+        margin-left: 0px;
+    border: solid;
+        border-top-color:  rgba(0, 0, 0, 0.125);
+        border-top-style: solid;
+        border-top-width: 1px;
+        border-right-color: rgba(0, 0, 0, 0.125);
+        border-right-style: solid;
+        border-right-width: 0px;
+        border-bottom-color: rgba(0, 0, 0, 0.125);
+        border-bottom-style: solid;
+        border-bottom-width: 1px;
+        border-left-color: rgba(0, 0, 0, 0.125);
+        border-left-style: solid;
+        border-left-width: 0px;
+        border-image-source: initial;
+        border-image-slice: initial;
+        border-image-width: initial;
+        border-image-outset: initial;
+        border-image-repeat: initial;
+    border-width: 1px 0;
+    overflow: hidden;
+    color: #000
 }
 
-.articles p:nth-child(even) {
-    padding: 30px;
+/*CSS for individual, general, events*/
+
+.event-item {
+    max-width: 1000px;
     width: 100%;
-    margin: 30px;
-    max-width: 1200px;
-    display: grid;
-    grid-auto-rows: 200px;
-    grid-template-columns: repeat (auto-fill, minmax(300px, 1fr));
-    grid-gap: 1em;
-    background-color: aqua
-    
-}
-
-.articles p:nth-child(odd) {
-    padding: 30px;
-    
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
+/*CSS for ND-specific events*/
 
+.ND-event {
+    font-family: "Open Sans", sans-serif;
+    color: #ffff80;
+    font-size: 0.9rem;
+    letter-spacing: 0.05rem;
+    text-transform: lowercase;
+    background-color: #39ac73;
+    padding: 2px 8px;
+        padding-top: 2px;
+        padding-right: 8px;
+        padding-bottom: 2px;
+        padding-left: 8px;
+    border-radius: 2px;
+        border-top-left-radius: 2px;
+        border-top-right-radius: 2px;
+        border-bottom-right-radius: 2px;
+        border-bottom-left-radius: 2px;
+}
+
+/*CSS for event tags, in general*/
+
+.event-type-tag {
+    color: rgb(30, 34, 36);
+    font-family: "Open-Sans", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-left: 0.5rem;
+    font-size: 0.9rem;
+    letter-spacing: 0.04rem;
+}
+
+.event-item-head {
+    margin-bottom: 0px;
+    padding-left: 1rem;
+    padding-top: 1rem;
+}
+
+.event-item-container {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+        padding-top: 1rem;
+        padding-right: 1rem;
+        padding-bottom: 1rem;
+        padding-left: 1rem;
+    flex: 1 1 auto;
+        flex-grow: 1;
+        flex-shrink: 1;
+        flex-basis: auto;
+}
