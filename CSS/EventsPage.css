@@ -48,18 +48,13 @@ li a:hover {
 }
 
 /*CSS settings for individual event sections*/
-.form {
-  max-width: 1200px;
-  margin: 30px;
-  padding: 30px;
-  width: 100%; 
-  display: grid;
-  /* Define Auto Row size */
-  grid-auto-rows: 200px; 
-  /*Define our columns */
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
-  grid-gap: 1em;
-    background-color: #CAEBF2;
+.event-form {
+  max-width: 1000px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 head {
@@ -100,7 +95,7 @@ head {
         border-image-repeat: initial;
     border-width: 1px 0;
     overflow: hidden;
-    color: #000
+    color: #000;
 }
 
 /*CSS for individual, general, events*/
@@ -119,7 +114,6 @@ div {
     display:block
 }
 
-/*CSS for ND-specific events*/
 
 /*CSS for event tags, in general*/
 .event-type-tag {
@@ -198,7 +192,7 @@ div {
     font-size: 1rem;
     cursor: pointer;
     color: white;
-    background-color: #FF3B3F;
+    background-color: #A9A9A9;
     padding-left: 1rem;
     padding-right: 1rem;
     padding-top: 0.5rem;
@@ -229,11 +223,11 @@ div {
         border-right-style: solid;
         border-bottom-style: solid;
         border-left-style: solid;
-    border-color: #FF3B3F;
-        border-top-color: #FF3B3F;
-        border-right-color: #FF3B3F;
-        border-bottom-color: #FF3B3F;
-        border-left-color: #FF3B3F;
+    border-color: #A9A9A9;
+        border-top-color: #A9A9A9;
+        border-right-color: #A9A9A9;
+        border-bottom-color: #A9A9A9;
+        border-left-color: #A9A9A9;
     border-image: initial;
         border-image-source: initial;
         border-image-slice: initial;
@@ -359,6 +353,71 @@ div {
     left: 0px;
     background-image: url(
     https://www.liveaction.org/news/wp-content/uploads/2016/03/South-bend-indiana-courthouse.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.event-form-body-text {
+    font-family: "Open Sans", sans-serif;
+    color: rgb(87, 100, 106);
+    line-height: 1.6;
+}
+
+/*Democratic Party events*/
+.Dem-event {
+        font-family: "Open Sans", sans-serif;
+    color: ghostwhite;
+    font-size: 0.9rem;
+    letter-spacing: 0.05rem;
+    text-transform: lowercase;
+    background-color: #3399ff;
+    padding: 2px 8px;
+        padding-top: 2px;
+        padding-right: 8px;
+        padding-bottom: 2px;
+        padding-left: 8px;
+    border-radius: 2px;
+        border-top-left-radius: 2px;
+        border-top-right-radius: 2px;
+        border-bottom-right-radius: 2px;
+        border-bottom-left-radius: 2px;
+}
+.Dem-image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/US_Democratic_Party_Logo.svg/2000px-US_Democratic_Party_Logo.svg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*GOP events*/
+.GOP-event {
+        font-family: "Open Sans", sans-serif;
+    color: ghostwhite;
+    font-size: 0.9rem;
+    letter-spacing: 0.05rem;
+    text-transform: lowercase;
+    background-color: #ff3333;
+    padding: 2px 8px;
+        padding-top: 2px;
+        padding-right: 8px;
+        padding-bottom: 2px;
+        padding-left: 8px;
+    border-radius: 2px;
+        border-top-left-radius: 2px;
+        border-top-right-radius: 2px;
+        border-bottom-right-radius: 2px;
+        border-bottom-left-radius: 2px;
+}
+.GOP-image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Republican_Disc.svg/1200px-Republican_Disc.svg.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
