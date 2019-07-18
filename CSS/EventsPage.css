@@ -8,8 +8,6 @@ h1, h2, h3, h4 {
     font-family: 'Open Sans', sans-serif;
 }
 
-
- 
  a {
     text-transform: uppercase;
     text-decoration: none;
@@ -49,7 +47,7 @@ li a:hover {
   box-sizing: border-box;
 }
 
-/*CSS settings for individual sections*/
+/*CSS settings for individual event sections*/
 .form {
   max-width: 1200px;
   margin: 30px;
@@ -166,4 +164,25 @@ head {
         flex-grow: 1;
         flex-shrink: 1;
         flex-basis: auto;
+}
+
+.event-item-container-content {
+    flex: auto;
+        flex-grow: 1;
+        flex-shrink: 1;
+        flex-basis: auto;
+    margin-bottom: 1rem;
+}
+
+.event-item-content-header-container {
+    margin-bottom: 0.5rem;
+}
+
+.event-item-content-header-content {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    text-transform: none;
+    color: rgb(30, 34, 36);
+    font-size: 1.5rem;
+    line-height: 1.1;
 }
