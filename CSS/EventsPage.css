@@ -186,3 +186,21 @@ head {
     font-size: 1.5rem;
     line-height: 1.1;
 }
+
+.event-item-content-container {
+    font-family: "Open Sans", sans-serif;
+    color: rgb(87, 100, 106);
+    line-height: 1.6;
+}
+
+.event-image-container {
+    padding-top: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 0px;
+    padding-left: 1rem;
+    width: 100%;
+    flex: 0 1 0%;
+        flex-grow: 0;
+        flex-shrink: 1;
+        flex-basis: 0%;
+}
