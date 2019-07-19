@@ -1,33 +1,40 @@
-/*This code applies to the whole web page*/
-
+/*Font settings*/
 body {
     font-size: 80%;
     letter-spacing: 0.15em;
-    background-color: #efefef;
+    background-color: #efefef;}
+h1, h3 {
+    font-size: 400%;
+    font-family: 'Open Sans', sans-serif;
 }
 
+h2 {
+    font-size: 300%;
+    font-family: 'Open Sans', sans-serif;
+}
 
-/*This code is for the Navigation Bar*/
- 
+h4 {
+    font-size: 200%;
+    font-family: 'Open Sans', sans-serif;
+}
+
  a {
     text-transform: uppercase;
     text-decoration: none;
+     font-family: 'Open Sans', sans-serif;
     }
 
-
+/*Nav bar color*/
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
   background-color: #333;
-  position: sticky;
-  top: 0px;
 }
 
 li {
   float: left;
-  
 }
 
 li a {
@@ -36,46 +43,395 @@ li a {
   text-align: center;
   padding: 14px 84px;
   text-decoration: none;
-    text-transform: uppercase;
+    text-transform: capitalize;
     font-family: 'Open Sans', sans-serif;
 }
 
+/*Nav bar hover settings*/
 li a:hover {
-  background-color: darkred;
-     
+  background-color: #FF3B3F;  
 }
+
+
 * {
   box-sizing: border-box;
 }
 
-/*CSS settings for individual sections*/
-.main {
-  max-width: 1200px;
-  margin: 30px auto;
-  padding: 20px;
-  width: 100%; 
-  display: grid;
-    
-  /* Define Auto Row size */
-    
-  grid-auto-rows: 200px; 
-    
-  /*Define our columns */
-    
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
-  grid-gap: 1em;
-    background-color: #CAEBF2;
+/*CSS settings for individual event sections*/
+.event-form {
+  max-width: 1000px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 head {
     font-family: 'Open Sans', sans-serif;
 }
 
-h1 {
-    color: maroon;
-    font-size: 50px}
-head {
-    font-family: 'Open Sans', sans-serif;}
+/*CSS for entirety of events listings*/
 
-h1, h2, h3 {
-    font-family: 'Open Sans', sans-serif;}
+.event-listings {
+  margin-bottom: 0px;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    box-sizing: inherit;
+    display: block;
+    background-color: ##efefef;
+    margin: 0 0 .5rem;
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 0.5rem;
+        margin-left: 0px;
+    border: solid;
+        border-top-color:  rgba(0, 0, 0, 0.125);
+        border-top-style: solid;
+        border-top-width: 1px;
+        border-right-color: rgba(0, 0, 0, 0.125);
+        border-right-style: solid;
+        border-right-width: 0px;
+        border-bottom-color: rgba(0, 0, 0, 0.125);
+        border-bottom-style: solid;
+        border-bottom-width: 1px;
+        border-left-color: rgba(0, 0, 0, 0.125);
+        border-left-style: solid;
+        border-left-width: 0px;
+        border-image-source: initial;
+        border-image-slice: initial;
+        border-image-width: initial;
+        border-image-outset: initial;
+        border-image-repeat: initial;
+    border-width: 1px 0;
+    overflow: hidden;
+    color: #000;
+}
+
+/*CSS for individual, general, events*/
+
+.event-item {
+    max-width: 1000px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 10px 0px 5px 0px;
+    height: auto;
+    background: white;
+    align-content: center;
+}
+
+div {
+    display:block
+}
+
+
+/*CSS for event tags, in general*/
+.event-type-tag {
+    color: rgb(30, 34, 36);
+    font-family: "Open-Sans", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-left: 0.5rem;
+    font-size: 0.9rem;
+    letter-spacing: 0.04rem;
+}
+.event-item-head {
+    margin-bottom: 0px;
+    padding-left: 1rem;
+    padding-top: 1rem;
+}
+.event-item-container {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+        padding-top: 1rem;
+        padding-right: 1rem;
+        padding-bottom: 1rem;
+        padding-left: 1rem;
+    flex: 1 1 auto;
+        flex-grow: 1;
+        flex-shrink: 1;
+        flex-basis: auto;
+}
+.event-item-container-content {
+    flex: auto;
+        flex-grow: 1;
+        flex-shrink: 1;
+        flex-basis: auto;
+    margin-bottom: 1rem;
+}
+.event-item-content-header-container {
+    margin-bottom: 0.5rem;
+}
+.event-item-content-header-content {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 900;
+    text-transform: none;
+    color: rgb(30, 34, 36);
+    font-size: 1.5rem;
+    line-height: 1.1;
+}
+.event-item-content-container {
+    font-family: "Open Sans", sans-serif;
+    color: rgb(87, 100, 106);
+    line-height: 1.6;
+    font-size: 14;
+}
+.event-image-container {
+    padding-top: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 0px;
+    padding-left: 1rem;
+    width: 100%;
+    flex: 0 1 0%;
+        flex-grow: 0;
+        flex-shrink: 1;
+        flex-basis: 0%;
+}
+.event-image {
+    width: 100%;
+    position: relative;
+    padding-top: 66.6667%;
+    margin: 0px;
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+}
+.event-link {
+    text-transform: uppercase;
+    font-size: 1rem;
+    cursor: pointer;
+    color: white;
+    background-color: #A9A9A9;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    border-radius: 0.25rem;
+        border-top-left-radius: 0.25rem;
+        border-top-right-radius: 0.25rem;
+        border-bottom-right-radius: 0.25rem;
+        border-bottom-left-radius: 0.25rem;
+    transition: all 0.2s ease-in-out 0s;
+        transition-property: all;
+        transition-duration: 0.2s;
+        transition-timing-function: ease-in-out;
+        transition-delay: 0s;
+    border-width: 2px;
+        border-top-width: 2px;
+        border-right-width: 2px;
+        border-bottom-width: 2px;
+        border-left-width: 2px;
+    border-style: solid;
+        border-top-style: solid;
+        border-right-style: solid;
+        border-bottom-style: solid;
+        border-left-style: solid;
+    border-color: #A9A9A9;
+        border-top-color: #A9A9A9;
+        border-right-color: #A9A9A9;
+        border-bottom-color: #A9A9A9;
+        border-left-color: #A9A9A9;
+    border-image: initial;
+        border-image-source: initial;
+        border-image-slice: initial;
+        border-image-width: initial;
+        border-image-outset: initial;
+        border-image-repeat: initial;
+}
+
+/*SMC-specific events*/
+.SMC-event {
+        font-family: "Open Sans", sans-serif;
+    color: white;
+    font-size: 0.9rem;
+    letter-spacing: 0.05rem;
+    text-transform: lowercase;
+    background-color: #0000CD;
+    padding: 2px 8px;
+        padding-top: 2px;
+        padding-right: 8px;
+        padding-bottom: 2px;
+        padding-left: 8px;
+    border-radius: 2px;
+        border-top-left-radius: 2px;
+        border-top-right-radius: 2px;
+        border-bottom-right-radius: 2px;
+        border-bottom-left-radius: 2px;
+}
+.smc-image {
+        position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background-image: url(https://www.saintmarys.edu/files/Le-Mans-in-spring.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*ND-specific events*/
+.ND-event {
+    font-family: "Open Sans", sans-serif;
+    color: #ffff80;
+    font-size: 0.9rem;
+    letter-spacing: 0.05rem;
+    text-transform: lowercase;
+    background-color: #39ac73;
+    padding: 2px 8px;
+        padding-top: 2px;
+        padding-right: 8px;
+        padding-bottom: 2px;
+        padding-left: 8px;
+    border-radius: 2px;
+        border-top-left-radius: 2px;
+        border-top-right-radius: 2px;
+        border-bottom-right-radius: 2px;
+        border-bottom-left-radius: 2px;
+}
+.nd-image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background-image: url(https://images.ctfassets.net/cfblb1f7i85j/5qb6T083LO8ukm0eGeSACq/3ecdfa852abc89c1c4d0ed131fd4caee/Library_Building_rep.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*HCC-specific events*/
+.HCC-event {
+    font-family: "Open Sans", sans-serif;
+    color: #DCDCDC;
+    font-size: 0.9rem;
+    letter-spacing: 0.05rem;
+    text-transform: lowercase;
+    background-color: #800000;
+    padding: 2px 8px;
+        padding-top: 2px;
+        padding-right: 8px;
+        padding-bottom: 2px;
+        padding-left: 8px;
+    border-radius: 2px;
+        border-top-left-radius: 2px;
+        border-top-right-radius: 2px;
+        border-bottom-right-radius: 2px;
+        border-bottom-left-radius: 2px;
+}
+.HCC-image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background-image: url(https://todayscatholic.org/wp-content/uploads/2016/11/39HolyCross5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*SB-specific events*/
+.SB-event {
+    font-family: "Open Sans", sans-serif;
+    color: #FFD700;
+    font-size: 0.9rem;
+    letter-spacing: 0.05rem;
+    text-transform: lowercase;
+    background-color: #191970;
+    padding: 2px 8px;
+        padding-top: 2px;
+        padding-right: 8px;
+        padding-bottom: 2px;
+        padding-left: 8px;
+    border-radius: 2px;
+        border-top-left-radius: 2px;
+        border-top-right-radius: 2px;
+        border-bottom-right-radius: 2px;
+        border-bottom-left-radius: 2px;
+}
+.SB-image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background-image: url(
+    https://www.liveaction.org/news/wp-content/uploads/2016/03/South-bend-indiana-courthouse.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.event-form-body-text {
+    font-family: "Open Sans", sans-serif;
+    color: rgb(87, 100, 106);
+    line-height: 1.6;
+}
+
+/*Democratic Party events*/
+.Dem-event {
+        font-family: "Open Sans", sans-serif;
+    color: ghostwhite;
+    font-size: 0.9rem;
+    letter-spacing: 0.05rem;
+    text-transform: lowercase;
+    background-color: #3399ff;
+    padding: 2px 8px;
+        padding-top: 2px;
+        padding-right: 8px;
+        padding-bottom: 2px;
+        padding-left: 8px;
+    border-radius: 2px;
+        border-top-left-radius: 2px;
+        border-top-right-radius: 2px;
+        border-bottom-right-radius: 2px;
+        border-bottom-left-radius: 2px;
+}
+.Dem-image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/US_Democratic_Party_Logo.svg/2000px-US_Democratic_Party_Logo.svg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*GOP events*/
+.GOP-event {
+        font-family: "Open Sans", sans-serif;
+    color: ghostwhite;
+    font-size: 0.9rem;
+    letter-spacing: 0.05rem;
+    text-transform: lowercase;
+    background-color: #ff3333;
+    padding: 2px 8px;
+        padding-top: 2px;
+        padding-right: 8px;
+        padding-bottom: 2px;
+        padding-left: 8px;
+    border-radius: 2px;
+        border-top-left-radius: 2px;
+        border-top-right-radius: 2px;
+        border-bottom-right-radius: 2px;
+        border-bottom-left-radius: 2px;
+}
+.GOP-image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Republican_Disc.svg/1200px-Republican_Disc.svg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
