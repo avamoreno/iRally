@@ -3,8 +3,18 @@ body {
     font-size: 80%;
     letter-spacing: 0.15em;
     background-color: #efefef;}
-h1, h2, h3, h4 {
-    font-size: 270%;
+h1, h3 {
+    font-size: 400%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h2 {
+    font-size: 300%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h4 {
+    font-size: 200%;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -425,3 +435,5 @@ div {
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+
