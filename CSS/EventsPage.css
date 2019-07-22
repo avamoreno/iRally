@@ -190,6 +190,9 @@ div {
         flex-grow: 0;
         flex-shrink: 1;
         flex-basis: 0%;
+    position: relative;
+    text-align: center;
+    color: white;
 }
 .event-image {
     width: 100%;
@@ -278,6 +281,7 @@ div {
     background-image: url(https://www.saintmarys.edu/files/Le-Mans-in-spring.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    filter: blur(4px)
 }
 
 /*ND-specific events*/
@@ -308,6 +312,7 @@ div {
     background-image: url(https://images.ctfassets.net/cfblb1f7i85j/5qb6T083LO8ukm0eGeSACq/3ecdfa852abc89c1c4d0ed131fd4caee/Library_Building_rep.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    filter: blur(4px)
 }
 
 /*HCC-specific events*/
@@ -338,6 +343,7 @@ div {
     background-image: url(https://todayscatholic.org/wp-content/uploads/2016/11/39HolyCross5.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    filter: blur(4px)
 }
 
 /*SB-specific events*/
@@ -369,6 +375,7 @@ div {
     https://www.liveaction.org/news/wp-content/uploads/2016/03/South-bend-indiana-courthouse.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    filter: blur(4px)
 }
 .event-form-body-text {
     font-family: "Open Sans", sans-serif;
@@ -401,9 +408,10 @@ div {
     height: 100%;
     top: 0px;
     left: 0px;
-    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/US_Democratic_Party_Logo.svg/2000px-US_Democratic_Party_Logo.svg.png);
+    background-image: url(../Images/DNC.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    filter: blur(4px)
 }
 
 /*GOP events*/
@@ -431,10 +439,32 @@ div {
     height: 100%;
     top: 0px;
     left: 0px;
-    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Republican_Disc.svg/1200px-Republican_Disc.svg.png);
+    background-image: url('../Images/GOP.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+    filter: blur(4px);
 }
 
 
 
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 60;
+    font-weight: 700;
+    font-family: "Open Sans", sans-serif;
+}
+
+.centered-contrast {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 60;
+    font-weight: 700;
+    font-family: "Open Sans", sans-serif;
+    color: black;
+}
