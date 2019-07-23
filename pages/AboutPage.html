@@ -11,70 +11,96 @@
 
 <body>
     
-<!--This is the code for the menu bar-->
-
-        <h1><center><i>iRally</i></center></h1> 
+<!--main menu-->
+    <div id="myNav" class="overlay">
+        
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        
+  <div class="overlay-content"> 
         
     
+            <a href="HomePage.html">Home</a>
+            
+            <a href="AboutPage.html">About Us</a>
+            
+            <a href="OrganizationsPage.html">Student Organizations</a>
+            
+            <a href="EventsPage.html">Campus Events</a>
+            
+            <a href="QuizPage.html">Candidate Quiz</a>
+       
         
-    <center>
-        <ul>
-            <li><a href="HomePage.html">Home</a></li>
-            ~
-            <li><a href="AboutPage.html">About Us</a></li>
-            ~
-            <li><a href="OrganizationsPage.html">Student Organizations</a></li>
-            ~
-            <li><a href="EventsPage.html">Campus Events</a></li>
-            ~
-            <li><a href="QuizPage.html">Candidate Quiz</a></li>
-       
-        </ul>
-       
+      
+       </div>
+    </div>
+            
+    <div class="main-menu">
+    <span onclick="openNav()">
+        <div class="toggles" oneclick="funtion">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
+            <script>
+                function myFunction(x) {
+                x.classList.toggle("change");
+                }
 
-    </center>  
+            </script>
+        
+        </span>
+        
+        </div>
 
 
 <!--This is the code for the information displayed on the page-->
 
-    <center><h2>~About <i>iRally~</i></h2></center>
-   
-   <div class="grid-container">
-       
-       <div class="grid-item">
-           
-       <center><h3><strong> Who are we? </strong></h3></center>
+    <center><h2>About <i>iRally</i></h2></center>
+    
+    <!--This is the code for the main introduction page-->
+    
+        <script>
+function openNav() {
+  document.getElementById("myNav").style.height = "100%";
+}
 
-           <p><i>iRally</i> is a website whose main focus is to help the youth of today become more politically involved and aware of the political climate surrounding them. It works towards providing helpful information about potential candidates, student organizations, and events near you.</p></div>
-       
-        <div class="grid-item">
-            
-            <center><h3>I've never been politically involved, how do I get started?</h3></center>
+function closeNav() {
+  document.getElementById("myNav").style.height = "0%";
+}
+</script>
+     
+<!--intro page-->
+
+     
+<div style="color: #777; background-color: indianred;text-align: center;padding: 10px 200px;text-align: justify;">
+    <h3 style="text-align:center;color: white;text-decoration: underline;">WHO ARE WE?</h3>
+
+           <p><i>iRally</i> is a website whose main focus is to help the youth of today become more politically involved and aware of the political climate surrounding them. It works towards providing helpful information about potential candidates, student organizations, and events near you.</p>
+    </div>
+   
+   <div style="color:#777; background-color: white; padding: 20px;"></div>    
+        <div style="color: #777; background-color: skyblue;text-align: center;padding: 10px 200px;text-align: justify;">
+            <h3 style="text-align:center;color: white;text-transform: uppercase;text-decoration: underline">I've never been politically involved, how do I get started?</h3>
             
             <p>A great way to get started is to take the Candidate quiz located above in the menu bar. The quiz will help you determine which candidates you most match with based on your beliefs. From there, you can look at student organizations that correlate with your beliefs or look at different events going on in your area.</p></div>
-            
-       <div class="grid-item">
-           
-                <center><h3>How accurate is the Candidate Quiz?</h3></center>
+        <div style="color:#777; background-color: white; padding: 20px;"></div>    
+       <div style="color: #777; background-color: indianred;text-align: center;padding: 10px 200px;text-align: justify;text-transform: uppercase;">
+    <h3 style="text-align:center;color: white;text-decoration: underline;">How accurate is the Candidate Quiz?</h3>
            
            <p>The Candidate quiz compiles all of your information, beliefs, and political views to help you find the candidate that best matched you personally. However, the quiz is not 100% accurate. While the results of the quiz give you the best possible match, you are free to <i>rally</i> with whomever you chose. </p></div>
-           
-                <div class="grid-item">
-                    
-                    <center><h3> How do I submit an event?</h3></center>
-                    
+    
+      <div style="color:#777; background-color: white; padding: 20px;"></div>     
+     <div style="color: #777; background-color: skyblue;text-align: center;padding: 10px 200px;text-align: justify;text-transform: uppercase;">
+    <h3 style="text-align:center;color: white;text-decoration: underline;">How do I submit an event?</h3>           
                     <p>To submit an event that you would like to become public, go to the "Events Near You" tab and follow the instructions to submit an event or proposal. </p></div>
                     
-       <div class="grid-item">
-            
-           <center><h3>What if I don't find a student organization that fits my interests?</h3></center>
-           <p>If you can't find a organization that you feel fits you, feel free to contact your college to talk to them about other options or even creating your own club.</p>
+   <div style="color:#777; background-color: white; padding: 20px;"></div>        
+   <div style="color: #777; background-color: indianred;text-align: center;padding: 10px 200px;text-align: justify;text-transform: uppercase;">
+    <h3 style="text-align:center;color: white;text-decoration: underline;">What if I don't find a student organization that fits my interests</h3>
+        
+       <p>If you can't find a organization that you feel fits you, feel free to contact your college to talk to them about other options or even creating your own club.</p></div>
        
-            </div>
-                   
-                   
-    </div>
-    
+           
  <h6>&copy; iRallyEnterprises</h6>
     
 </body>

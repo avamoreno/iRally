@@ -6,58 +6,197 @@
 
 <head>
     <link rel="stylesheet" href="../CSS/HomePage.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title> iRally </title>
 </head>
-
-<body>
     
-    
-<!--This is the the code for the menu bar-->
-
-    <h1><center><i>iRally</i></center></h1> 
+ <body>   
+     
+<!--main menu-->
+    <div id="myNav" class="overlay">
+        
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        
+  <div class="overlay-content"> 
         
     
+            <a href="HomePage.html">Home</a>
+            
+            <a href="AboutPage.html">About Us</a>
+            
+            <a href="OrganizationsPage.html">Student Organizations</a>
+            
+            <a href="EventsPage.html">Campus Events</a>
+            
+            <a href="QuizPage.html">Candidate Quiz</a>
+       
         
-    <center>
-        <ul>
-            <li><a href="HomePage.html">Home</a></li>
-            ~
-            <li><a href="AboutPage.html">About Us</a></li>
-            ~
-            <li><a href="OrganizationsPage.html">Student Organizations</a></li>
-            ~
-            <li><a href="EventsPage.html">Campus Events</a></li>
-            ~
-            <li><a href="QuizPage.html">Candidate Quiz</a></li>
-       
-        </ul>
-       
+      
+       </div>
+    </div>
+            
+    <div class="main-menu">
+    <span onclick="openNav()">
+        <div class="toggles" oneclick="funtion">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
+            <script>
+                function myFunction(x) {
+                x.classList.toggle("change");
+                }
 
-    </center>
+            </script>
+        
+        </span>
+        
+        </div>
+        
+        
 
 <!--This is the code for the main introduction page-->
     
-    <h2><center>Welcome to <i>iRally</i></center></h2>
-    <h3><i><center>Find out how you can get politically involved in your own community today! </center></i></h3>
+        <script>
+function openNav() {
+  document.getElementById("myNav").style.height = "100%";
+}
+
+function closeNav() {
+  document.getElementById("myNav").style.height = "0%";
+}
+</script>
+     
+<!--first img scroll-->
+<div class="img-1">
+        <div class="caption">
+            <span class="border">iRally</span>
+
+        </div>
+     </div>
+     
+<div style="color: #777; background-color: maroon;text-align: center;padding: 10px 200px;text-align: justify;">
+    <h3 style="text-align:center;">~WELCOME TO iRALLY~</h3> 
+    <center><p>Become more politically involved in your community today!</p></center>
+    <center><p> iRally currently serves the following institutions:</p></center>
+    <i><center><p> University of Notre Dame</p></center>
+    <center><p> Saint Mary's University</p></center>
+        <center><p> Holy Cross College</p></center></i>
+     </div>
+  
+     
+<!--slidewshow-->
+
+     <div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="../Images/notredame.jpg" style="width:100%">
+  <div class="text">University of Notre Dame</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="../Images/saintmary.jpg" style="width:100%">
+  <div class="text">Saint Mary's University</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="../Images/holycross.jpg" style="width:100%">
+  <div class="text">Holy Cross College</div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+
+<script>
     
-    <center><img src= "../images/black%20and%20white%20rally.png" >
-      <h6>&copy; The Express Tribune</h6>
-      </center>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
     
-    <center><h3><i>iRally</i> currently helps the following colleges become more politically involved </h3></center>
+     </div>
+     </div>
     
-    <center><h4> ~ University of Notre Dame ~ Saint Mary's College ~ Holy Cross College ~</h4></center>
-    <center>
-         ~~
-        <img src="../Images/NDlogo.jpg" height="50" width="50" align="middle"/>
-           ~~~~
-        <img src="../Images/SMClogo.jpg" height="50" width="50" align="middle"/>
-           ~~~~
-        <img src="../Images/HClogo.jpg" height="50" width="50" align="middle"/> 
-        ~~
-    </center>
+<div style="position: relative">
+    <div style="color: #ddd;background-color: maroon;center;padding: 50px 80px; text-align: justify;">
+        <center><p> <a href="EventsPage.html"></a> </p></center>
+    </div> 
+     </div>
     
-    <h6>&copy; iRallyEnterprises</h6>
-</body>
+<!--third img scroll-->
+ 
+<div class="img-3">
+     <div class="caption">
+         
+         <span class="border" style="background-color: maroon;font-size: 25px;color: #f7f7f7;">
+         <a href="EventsPage.html">Campus Events</a>
+         </span>
+    </div> 
+     </div>
+     
+ <div style="position: relative">
+    <div style="color: #ddd;background-color: maroon;text-align: center;padding: 50px 80px; text-align: justify;">
+        <center><p><a href="OrganizationsPage.html"></a></p></center>
+     </div>
+     </div>
+     
+<div class="img-4">
+     <div class="caption">
+         <span class="border" style="background-color: maroon;font-size: 25px;color: #f7f7f7;">
+         <a href="OrganizationsPage.html">Student Organizations</a>
+         </span>
+    </div> 
+     </div>
+     
+ <div style="position: relative">
+    <div style="color: #ddd;background-color: maroon;text-align: center;padding: 50px 80px; text-align: justify;">
+        <center><p>  <a href="QuizPage.html"></a></p></center>
+        
+        
+     </div>
+     </div>
+
+    <div class="img-5">
+     <div class="caption">
+         <span class="border" style="background-color: ma;font-size: 25px;color: #f7f7f7;">
+         <a href="QuizPage.html">Candidate Quiz</a>
+         </span>
+    </div> 
+    </body>
 
 </html>
