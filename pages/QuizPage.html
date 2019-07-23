@@ -14,32 +14,56 @@
 
         <h1><center><i>iRally</i></center></h1> 
         
-    
+    <!--main menu-->
+    <div id="myNav" class="overlay">
         
-    <center>
-        <ul>
-            <li><a href="HomePage.html">Home</a></li>
-            ~
-            <li><a href="AboutPage.html">About Us</a></li>
-            ~
-            <li><a href="OrganizationsPage.html">Student Organizations</a></li>
-            ~
-            <li><a href="EventsPage.html">Campus Events</a></li>
-            ~
-            <li><a href="QuizPage.html">Candidate Quiz</a></li>
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        
+  <div class="overlay-content"> 
+        
+    
+            <a href="HomePage.html">Home</a>
+            
+            <a href="AboutPage.html">About Us</a>
+            
+            <a href="OrganizationsPage.html">Student Organizations</a>
+            
+            <a href="EventsPage.html">Campus Events</a>
+            
+            <a href="QuizPage.html">Candidate Quiz</a>
        
-        </ul>
-       
+        
+      
+       </div>
+    </div>
+            
+    <div class="main-menu">
+    <span onclick="openNav()">
+        <div class="toggles" oneclick="funtion">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
+            <script>
+                function myFunction(x) {
+                x.classList.toggle("change");
+                }
 
-    </center>  
-
+            </script>
+        
+        </span>
+        
+        </div>
+        
       
 <!--This code is for the multiple choice candidate quiz and submit button-->
       
-<center><h3>Complete the following questions to see which candidate best matches your beliefs!</h3> </center>     
+<center><h3>Complete the following questions to see which candidate best matches your beliefs!</h3> </center> 
+    
 <center>
     <form> 
-<p> What is your stance on abortion?
+        <p1> Social Issues </p1>
+<p>1. What is your stance on abortion?
 <br />
 <input type="radio" name="stance" value="Prolife" /> Prolife
 <input type="radio" name="stance" value="Prochoice" /> Prochoice 
@@ -47,73 +71,144 @@
 </p>
         
                                                       
-<p> Do you support the legalization of same sex marriage?
+<p>2. Do you support the legalization of same sex marriage?
 <br />
 <input type="radio" name="support" value="Yes" /> Yes
 <input type="radio" name="support" value="No"  /> No                                        
 <input type="radio" name="support" value="Other stances"  /> Other stances
                                                         </p>
                                                        
-<p> Do you think the government should continue to fund  Planned Parenthood?                                                       
+<p>3. Do you think the government should continue to fund Planned Parenthood?                                                       
 <br />
 <input type="radio" name="think" value="Yes" /> Yes
 <input type="radio" name="think" value="No"  /> No                     
 <input type="radio" name="think" value="Other stances"  /> Other stances 
-                                                        </p>
-                                             
-<p> Should the government increase enviornmental regulations to prevent climate change?                            
+        </p>
+    <p2> Healthcare Issues </p2>
+<p>4. Should the government allow Medicare for all?
+    <br />                                                       
+<input type="radio" name="medicare" value="Yes" /> Yes
+<input type="radio" name="medicare" value="No"  /> No                                        
+<input type="radio" name="medicare" value="Other stances"  /> Other stances
+        </p>
+        
+<p>5. Should the governemnt regulate the prices of life-saving drugs?
+         <br />                                                       
+<input type="radio" name="prices" value="Yes" /> Yes
+<input type="radio" name="prices" value="No"  /> No                                        
+<input type="radio" name="prices" value="Other stances"  /> Other stance
+    </p>
+     
+        <p3> Enviornmental Issues </p3>
+<p>6. Should the government increase enviornmental regulations to prevent climate change?                            
 <br />
 <input type="radio" name="regulation" value="Yes" /> Yes
 <input type="radio" name="regulation" value="No"  /> No                                        
 <input type="radio" name="regulation" value="Other stances"  /> Other stances  
                                                         </p>
-                                                    
-<p> Should the U.S. raise taxes on the rich?
+<p>7. Should the U.S. withdraw from the Paris Climate Agreement?
+<br />
+<input type="radio" name="withdraw" value="Yes" /> Yes
+<input type="radio" name="withdraw" value="No"  /> No                                        
+<input type="radio" name="withdraw" value="Other stances"  /> Other stances
+        </p>       
+                  
+        <p4> Economic Issues </p4>
+<p>8. Should the U.S. raise taxes on the rich?
 <br />
 <input type="radio" name="should" value="Yes" /> Yes
 <input type="radio" name="should" value="No"  /> No                                        
 <input type="radio" name="should" value="Other stances"  /> Other stances 
                                                         </p>
                                                        
-<p> Should the government raise the federal minimum wage?
+<p>9. Should the government raise the federal minimum wage?
 <br />                                                       
 <input type="radio" name="raise" value="Yes" /> Yes
 <input type="radio" name="raise" value="No"  /> No                                        
 <input type="radio" name="raise" value="Other stances"  /> Other stances                                                        
                                                        </p>
-<p> Should there be more restrictions on the current process of purchasing a gun?                                                       
+        <p5> Domestic Policy Issues </p5>
+<p>10. Should there be more restrictions on the current process of purchasing a gun?                                                       
 <br />                                                       
 <input type="radio" name="restriction" value="Yes" /> Yes
 <input type="radio" name="restriction" value="No"  /> No                                        
 <input type="radio" name="restriction" value="Other stances"  /> Other stances 
                                                         </p>
 
-<p> Are you in favor of decriminalizing drug use?                                                        
+<p>11. Are you in favor of decriminalizing drug use?                                                        
 <br />                                                       
 <input type="radio" name="favor" value="Yes" /> Yes
 <input type="radio" name="favor" value="No"  /> No                                        
 <input type="radio" name="favor" value="Other stances"  /> Other stances 
                                                         </p>
-                                                       
-<p> Should the federal government pay for tuition at four year colleges and universities?                                                       
+          <p6> Education Issues </p6>                                             
+<p>12. Should the federal government pay for tuition at four year colleges and universities?                                                
 <br />                                                       
 <input type="radio" name="pay" value="Yes" /> Yes
 <input type="radio" name="pay" value="No"  /> No                                        
 <input type="radio" name="pay" value="Other stances"  /> Other stances                                                       
-                                                       </p>
-                                                        
-<p> Should the U.S. build a wall along the southern border?                                                       
+                                                </p>
+        
+<p>13. Do you support Common Core national standards? 
+<br />                                                       
+<input type="radio" name="common core" value="Yes" /> Yes
+<input type="radio" name="common core" value="No"  /> No                                        
+<input type="radio" name="common core" value="Other stances"  /> Other stances
+        </p>
+    
+          <p7> Immigartion Issues </p7>                                              
+<p>14. Should the U.S. build a wall along the southern border?                                                       
 <br />                                                       
 <input type="radio" name="build" value="Yes" /> Yes
 <input type="radio" name="build" value="No"  /> No                                        
 <input type="radio" name="build" value="Other stances"  /> Other stances
                                                         </p>
+ <p>15. Should there be a temporary ban on all immigration into the United States?                                                       
+<br />                                                       
+<input type="radio" name="ban" value="Yes" /> Yes
+<input type="radio" name="ban" value="No"  /> No                                        
+<input type="radio" name="ban" value="Other stances"  /> Other stances
+                                                        </p>       
+        <p8> Science Issues </p8>
+<p>16. Should the government require children to be vaccinated for preventable diseases?                                                       
+<br />                                                       
+<input type="radio" name="vaccine" value="Yes" /> Yes
+<input type="radio" name="vaccine" value="No"  /> No                                        
+<input type="radio" name="vaccine" value="Other stances"  /> Other stances
+                                                        </p> 
+ <p>17. Do you support the use of nuclear energy?                                                       
+<br />                                                       
+<input type="radio" name="nuclear" value="Yes" /> Yes
+<input type="radio" name="nuclear" value="No"  /> No                                        
+<input type="radio" name="nuclear" value="Other stances"  /> Other stances
+                                                        </p>            
+        <p9> Transportation Issues </p9>
+<p>18. Should the government increase spending on public transportation?                                                       
+<br />                                                       
+<input type="radio" name="spending" value="Yes" /> Yes
+<input type="radio" name="spending" value="No"  /> No                                        
+<input type="radio" name="spending" value="Other stances"  /> Other stances
+                                                        </p>
+        <p10> Electoral Issues </p10>
+<p>19. Should the electoral college abolished?                                                       
+<br />                                                       
+<input type="radio" name="electoral" value="Yes" /> Yes
+<input type="radio" name="electoral" value="No"  /> No                                        
+<input type="radio" name="electoral" value="Other stances"  /> Other stances
+                                                        </p>  
+<p>20. Should a photo ID be required to vote?                                                       
+<br />                                                       
+<input type="radio" name="vote" value="Yes" /> Yes
+<input type="radio" name="vote" value="No"  /> No                                        
+<input type="radio" name="vote" value="Other stances"  /> Other stances
+                                                        </p>     
  </form> 
     
-
-    <input type="submit" name="Submit" value="Submit" />
-  
-          </center> 
+       <p11> This is the end of the quiz. Click submit to find out your results! </p11>
+    
+ <a href="quizpg2.html"><button type="button">Submit</button></a>
+    
+    </center>
     
  <h6>&copy; iRallyEnterprises</h6>
     
