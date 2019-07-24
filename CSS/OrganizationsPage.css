@@ -14,7 +14,7 @@ body {
   width: 100%; 
   display: grid;
   /* Define Auto Row size */
-  grid-auto-rows: 550px; 
+  grid-auto-rows: 400px; 
   /*Define our columns */
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
   grid-gap: 1em;
@@ -39,7 +39,7 @@ h1, h2, h3 {
   padding: 0;
   overflow: hidden;
   background-color: #333;
-  position: sticky;
+  position: none;
   top: 0px;
 }
 
@@ -59,13 +59,111 @@ h1, h2, h3 {
 
 
 .navlink .navpage:hover {
-  background-color: darkred;
-     
+  background-color: darkred;     
 }
+
 ul {
     list-style-type: none;}
 
 h1 {
     color: maroon;
     font-size: 50px
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+/* To remove bullets*/
+.nobull {
+list-style-type: none;
+text-decoration: none;
+}
+/* ND code*/
+.NDD{
+    background-color: rgba(128, 0, 0, 0.69);
+    margin: 120px;
+    padding: 30px;
+}
+.NDlinks {
+  position: absolute; 
+    right: auto;
+    top: 30%;
+    float:right;
+    background-color:rgba(224, 22, 22, 0.36);
+    color: white;
+}
+.NDtitle{
+  position: absolute;
+  top: 50%;
+  left: 15%;
+  transform: translate(-20%, -10%);
+}
+.ND {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+
+/* SM code*/
+
+.Sm{
+position: relative;
+  text-align: center;
+}
+.SMtitle {
+
+  position: absolute;
+  top: 8px;
+  right: 16px;
+    transform: translate(-50%, -10%);
+    color: darkred;
+}
+
+.SMM{
+    background-color: rgba(0, 167, 255, 0.36);
+     margin: 120px;
+    padding: 30px;
+
+}
+.SMlinks {
+    padding: 130px; 
+    color: aliceblue;
+    text-align: justify;
+        
+}
+/* HC code*/
+.HCcampus {
+     float: left; 
+    vertical-align: left;
+}
+
+.HC{
+    background-color: rgba(128, 0, 0, 0.69);
+    width: auto;
+    padding: 30px;
+    align-content: left;
+    margin: 120px;
+ 
+}
+
+.HCC {
+position: relative;
+  text-align: center;
+}
+.HClinks{
+    padding: 150px; 
+}
+.HCtitle{
+  position: absolute;
+  top: 75%;
+  left: 15%;
+  transform: translate(-20%, -10%);
+    color: white;
+}
+/* mouse over link */
+    
+a:hover {
+  color: black;
 }
