@@ -1,0 +1,31 @@
+
+/* This is the code for font settings */
+
+body {
+    font-size: 80%;
+    letter-spacing: 0.15em;
+    background-color: #efefef;}
+
+/*This is the code for the text fonts and sizes*/
+
+
+h1 { color: teal;
+    font-size: 57px
+         
+}
+
+h2 { color: teal;
+     font-size: 30px
+    
+}
+
+
+h3 { color: black;
+    font-size: 25px
+    
+}
+
+p, p2 { color: black;
+    font-size: 20px
+}
+
