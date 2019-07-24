@@ -65,47 +65,14 @@ h3 {
 
 
 p {
+    padding-left: 200px;
+    padding-right: 200px;
     font-size: 15px;
     color: white;
 }
 
 /*about us intro*/
-.img-1, .img-2, .img-3, .img-4, .img-5 {
-    position: relative;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 
-.img-1 {
-    background-image: url("../Images/rallyposter.jpg");
-    min-height: 100%;
-}
-
-.img-2 {
-    background-image: url("../Images/black%20and%20white%20rally.png");
-    min-height: 100%;
-}
-
-.img-3 {
-    background-image: url("../Images/events.jpg");
-    min-height: 100%;
-    opacity: 0.65;
-}
-
-.img-4 {
-   background-image: url("../Images/organizations.jpg");
-    min-height: 100%;
-    opacity: 0.65;
-}
-
-.img-5{
-    background-image: url("../Images/candidates.jpg");
-    min-height: 100%;
-    opacity: 0.65;
-
-}
 .caption {
     position: absolute;
     left: 0;
